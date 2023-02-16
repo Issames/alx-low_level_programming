@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry  Point
+ * main - Entry Point
  *
- * Description: prints : "with proper grammar, but the outcome is a piece of art,"
+ * Description: prints "with proper grammar, but the outcome is a piece of art,"
  *
  * Return: Always 0
  */
