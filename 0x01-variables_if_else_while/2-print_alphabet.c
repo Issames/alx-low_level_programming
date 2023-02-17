@@ -2,7 +2,7 @@
 /**
  * main - print the letters of the alphabet
  *
- * Description: print the letters of the alphabet in lower then in uppercase
+ * Description: print the letters of the alphabet in lowercase
  *
  * Return: Always 0
  */
@@ -17,10 +17,4 @@ while (i < 123)
 }
 putchar(10);
 return (0);
-
-
-
-
-
-
 }
