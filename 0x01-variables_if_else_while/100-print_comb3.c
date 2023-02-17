@@ -9,7 +9,6 @@
 int main(void)
 {
 	int i, j;
-	
 	i = 48;
 	j = 48;
 
@@ -21,7 +20,7 @@ int main(void)
 			putchar(i);
 			putchar(j);
 
-			if(i < 56 || j < 57)
+			if (i < 56 || j < 57)
 			{
 				putchar(44);
 				putchar(32);
