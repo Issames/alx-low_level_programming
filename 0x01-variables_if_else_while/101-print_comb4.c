@@ -18,7 +18,7 @@ for (i = 0; i<=9; i++)
 			putchar('0'+ i);
 			putchar('0' + j);
 			putchar('0'+ k);
-			if (i == 7 && i == 8 && i == 9)
+			if (i == 7 && j == 8 && k == 9)
 			{
 				putchar('\n');
 			}
