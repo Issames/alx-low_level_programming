@@ -10,28 +10,25 @@ int main(void)
 {
 	int i, j;
 
-	i = 48;
-	j = 48;
-
-	while (i < 58)
+	for (i = 0; i <=9 ; i++)
 	{
-		j = 48;
-		while (j < 58)
+		for (j = i + 1; j <= 9; j++)
 		{
-			putchar(i);
-			putchar(j);
-
-			if (i < 57 || j < 57)
+			if (!(i == 0 && j == 1))
 			{
-				putchar(44);
-				putchar(32);
+
+				putchar('0' + i);
+				putchar('0' + j);
+			
+				if (i != 8 || j != 9)
+				{
+					putchar(44);
+					putchar(32);
+				}
 			}
-			j++;
 		}
 
-		i++;
 	}
-	putchar(10);
 
 	return (0);
 }
