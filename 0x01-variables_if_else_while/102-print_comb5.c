@@ -10,39 +10,22 @@
  */
 int main(void)
 {
-int i, j, k, m;
-i = 48;
-while (i < 58)
+int i, j;
+for (i = 0; i < 100; i++)
 {
-	j = 48;
-	while (j < 58)
+	for(j = i + 1; j < 100; j++)
 	{
-		m = j + 1;
-		k = i;
-		while (k < 58)
+		putchar(i / 10 + '0');
+		putchar(i % 10 + '0');
+		putchar(' ');
+		putchar(j / 10 + '0');
+		putchar(j % 10 + '0');
+		if (i != 98 || j != 99)
 		{
-			m = j + 1;
-			k = i;
-			while (m < 58)
-			{
-				putchar(i);
-				putchar(j);
-				putchar(32);
-				putchar(k);
-				putchar(m);
-				if (i < 57 || j < 56 || k < 57 || m < 57)
-				{
-					putchar(44);
-					putchar(32);
-				}
-				m++;
-			}
-			k++;
+			putchar(',');
+			putchar(' ');
 		}
-		j++;
 	}
-	i++;
 }
-putchar(10);
 return (0);
 }
