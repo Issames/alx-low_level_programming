@@ -4,7 +4,6 @@
  * @n: n is an integer
  *
  * Return : integer
- *
  */
 int _abs(int n)
 {
