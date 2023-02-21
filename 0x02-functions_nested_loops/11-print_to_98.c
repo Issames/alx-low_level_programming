@@ -1,9 +1,8 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * print_to_98 prints numbers to 98
- * @n : starting integer
+ * @n: starting integer
  *
  * Description: prints all the natural number for -98
  *
