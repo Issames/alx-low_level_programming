@@ -3,7 +3,7 @@
  * _isalpha - check for the alpahabetic character
  * @c: c is an ASCII code
  *
- * Return: 1 
+ * Return: 1
  */
 
 int _isalpha(int c)
