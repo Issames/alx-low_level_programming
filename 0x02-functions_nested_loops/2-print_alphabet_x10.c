@@ -20,6 +20,5 @@ for (r = 0; r < 10; r++)
 	}
 	_putchar('\n');
 }
-return (0);
 }
 
