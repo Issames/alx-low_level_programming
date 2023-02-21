@@ -2,10 +2,11 @@
 /**
  * add - adds two integers
  *
- * @n1: integer 1
+ * @r: integer 1
  *
- * @n2: integer 2
+ * @p: integer 2
  */
+
 int add(int r, int p)
 {
 int sum;
