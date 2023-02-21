@@ -8,39 +8,39 @@
  */
 void jack_bauer(void)
 {
-int h_t, h_o, m_t, m_o, h_m;
-h_m = 58;
-h_t = '0';
-while (h_t < '3')
+int hours_tens, hours_ones, minutes_tens, minutes_ones, hours_max;
+hours_max = 58;
+hours_tens = '0';
+while (hours_tens < '3')
 {
-	if (h_t == '2')
+	if (hours_tens == '2')
 	{
-		h_m = '4';
+		hours_max = '4';
 	}
-	h_o = '0';
-	while (h_o = '0')
+	hours_ones = '0';
+	while (hours_ones = '0')
 	{
-		m_t = '0'
-		while (m_t < '6')
+		minutes_tens = '0';
+		while (minutes_tens < '6')
 		{
-			m_o = '0';
-			while (m_o < 58)
+			minutes_ones = '0';
+			while (minutes_ones < 58)
 			{
-				_putchar(h_t);
-				_putchar(h_o);
+				_putchar(hours_tens);
+				_putchar(hours_ones);
 				_putchar(':');
-				_putchar(m_t);
-				_putchar(m_o);
+				_putchar(minutes_tens);
+				_putchar(minutes_ones);
 				_puctchar('\n');
-				m_o++;
+				minutes_ones++;
 			}
-			m_o = '0';
-			m_t++;
+			minutes_ones = '0';
+			minutes_tens++;
 		}
-		m_t = '0';
-		h_o++;
+		minutes_tens = '0';
+		hours_ones++;
 	}
-	h_o = '0';
-	h_t++;
+	hours_ones = '0';
+	hours_tens++;
 }
 }
