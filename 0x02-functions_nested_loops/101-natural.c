@@ -1,4 +1,4 @@
-#include "main.h"
+#include<stdio.h>
 /**
  * main - list all natural numbers multiples of 3 & 5
  *
