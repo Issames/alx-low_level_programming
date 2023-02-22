@@ -15,6 +15,6 @@ for (num = 0; num < 1024; num++)
 		sum += num;
 	}
 }
-print("%d\n", sum);
+printf("%d\n", sum);
 return (0);
 }
