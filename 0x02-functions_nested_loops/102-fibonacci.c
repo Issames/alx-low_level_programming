@@ -15,7 +15,7 @@ first = 0;
 second = 0;
 count = 0;
 
-while (count < 490
+while (count < 490)
 {
 	sum = first + second;
 	printf("%li, ", sum);
