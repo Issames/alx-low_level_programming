@@ -10,7 +10,7 @@
 int main(void)
 {
 int i;
-int fib[100];
+long long fib[100];
 fib[0] = 1;
 fib[1] = 2;
 printf("%d, %d, ", fib[0], fib[1]);
