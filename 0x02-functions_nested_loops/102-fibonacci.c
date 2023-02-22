@@ -12,10 +12,10 @@ int count;
 
 sum = 0;
 first = 0;
-second = 0;
+second = 1;
 count = 0;
 
-while (count < 490)
+while (count < 49)
 {
 	sum = first + second;
 	printf("%li, ", sum);
