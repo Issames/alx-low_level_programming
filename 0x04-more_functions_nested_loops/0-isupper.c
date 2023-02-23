@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check for uppercase
+ * _isupper - check for uppercase
  * @n: character to checked for case
  *
  * Return: 1 if uppercase and 0 if lowercase
