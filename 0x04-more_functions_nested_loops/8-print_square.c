@@ -8,6 +8,7 @@
 void print_square(int size)
 {
 int x, y;
+
 if (size <= 0)
 {
 	_putchar('\n');
@@ -20,6 +21,7 @@ else
 		{
 			_putchar(35);
 		}
+
 		_putchar('\n');
 	}
 }
