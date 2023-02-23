@@ -4,7 +4,6 @@
  * @n: character to checked for case
  *
  * Return: 1 if uppercase and 0 if lowercase
- *
  */
 int _isupper(int n)
 {
