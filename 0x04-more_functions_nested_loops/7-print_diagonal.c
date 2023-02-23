@@ -21,7 +21,7 @@ else
 			_putchar(32);
 		}
 		_putchar(92);
-		_puctchar('\n');
+		_putchar('\n');
 	}
 }
 }
