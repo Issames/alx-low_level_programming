@@ -8,29 +8,21 @@
 
 void more_numbers(void)
 {
-int line, n, r, l;
-n = '0';
-r = 0;
-l = '9';
-for (line = 0; line < 10; line++)
+int x, y;
+
+for (x = 0; x < 10; x++)
 {
-	while (r < 2)
+	for (y = 0; y <= 14; y++)
 	{
-		while (n <= l)
+		if (y > 9)
 		{
-			if (l == '4')
-				_putchar('1');
-			_putchar(n);
-			n++;
+			_putchar((y / 10) + '0');
 		}
-		r++;
-		l = '4';
-		n = '0';
+		_putchar((y % 10) + '0');
 	}
 	_putchar('\n');
-	r = 0;
-	n = '0';
-	limit = '9';
+
 }
 }
+
 
