@@ -26,6 +26,8 @@ for (x = 1; x <= 100; x++)
 	{
 		printf("%d", x);
 	}
+
+
 	if (x != 100)
 	{
 		printf(" ");
