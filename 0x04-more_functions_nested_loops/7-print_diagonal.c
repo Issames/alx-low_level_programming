@@ -11,6 +11,7 @@ void print_diagonal(int n)
 int x, y;
 if (n <= 0)
 {
+	_putchar(36);
 	_putchar('\n');
 }
 else
@@ -20,8 +21,10 @@ else
 		for (y = 0; y < x; y++)
 		{
 			_putchar(32);
+		
 		}
 		_putchar(92);
+		_putchar(36);
 		_putchar('\n');
 	}
 }
