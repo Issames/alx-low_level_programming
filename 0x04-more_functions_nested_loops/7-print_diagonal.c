@@ -11,7 +11,6 @@ void print_diagonal(int n)
 int x, y;
 if (n <= 0)
 {
-	_putchar(36);
 	_putchar('\n');
 }
 else
@@ -24,7 +23,6 @@ else
 		
 		}
 		_putchar(92);
-		_putchar(36);
 		_putchar('\n');
 	}
 }
