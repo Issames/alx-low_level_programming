@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_ diagnol - Draw a diagonal lines according parameter
+ * print_diagnol - Draw a diagonal lines according parameter
  * @n: number of times
  *
  * Return: empty
