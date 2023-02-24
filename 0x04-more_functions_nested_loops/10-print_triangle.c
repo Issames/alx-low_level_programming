@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_triangle - Prints a traingle of square according parameter
+ * print_triangle - prints a traingle of square according parameter
  * @size: The size of the square triangle
  *
  * Return: empty
