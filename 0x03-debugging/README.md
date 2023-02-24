@@ -1,2 +1,2 @@
 Tasks :
-	1- Test if p or n
+	1- Test if positive or negative
