@@ -14,7 +14,7 @@ while (str[i] != '\0')
 	i++;
 }
 max = i;
-j = max / 2;
+j =(max - 1) / 2;
 while (j <= max)
 {
 	putchar(str[j]);
