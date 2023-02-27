@@ -1,24 +1,19 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /**
  * puts_half - prints half of a string
  * @str: string
  * Return: void
  */
-void puts_half(char *str)
+void puts_half(char *str) 
 {
-int i, j, max;
-i = 0;
-while (str[i] != '\0')
+int length = strlen(str);
+int start = length / 2;
+if (length % 2 == 1) 
 {
-	i++;
+	start = (length - 1) / 2;
 }
-max = i;
-j =(max - 1) / 2;
-while (j <= max)
-{
-	putchar(str[j]);
-	j++;
+printf("%s\n", &str[start]);
 }
-putchar('\n');
-}
+
