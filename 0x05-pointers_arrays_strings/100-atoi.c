@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 /**
  * _atoi : function
  * @s: pointer
@@ -28,7 +29,6 @@ while (s[i] >= '0' && s[i] <= '9')
 {
 	if (result > INT_MAX / 10 || (result == INT_MAX / 10 && (s[i] - '0') > INT_MAX % 10))
 	{
-            // handle overflow
         	if (sign == 1)
 		{
                 	return INT_MAX;
