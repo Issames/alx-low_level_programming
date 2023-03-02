@@ -5,7 +5,6 @@
  * @src: source char
  * Return: new char
  */
-
 char *_strcat(char *dest, char *src)
 {
 int i;
@@ -17,6 +16,5 @@ while (dest[n] != '\0')
 for (i = 0; i < n && src[i] != '\0'; i++)
 	dest[n + 1] = src[i];
 dest[n+1] = '\0';
-
 return (dest);
 }
