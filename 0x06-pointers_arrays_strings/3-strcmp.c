@@ -18,4 +18,3 @@ while (s1[i] == s2[i])
 }
 return (s1[i] - s2[i]);
 }
-
