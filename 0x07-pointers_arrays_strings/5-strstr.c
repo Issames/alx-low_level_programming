@@ -5,7 +5,6 @@
  * @needle: string to match
  * Return: pointer to initial segment of haystack
  */
-
 char *_strstr(char *haystack, char *needle)
 {
 int i, j, start;
