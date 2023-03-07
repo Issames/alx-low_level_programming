@@ -18,12 +18,9 @@ while (needle[nlen] != '\0')
 }
 for (i = 0; haystack[i] != '\0'; i++)
 {
+	start = i;
 	for (j = 0; j < nlen && haystack[i] == needle[j]; j++, i++)
 	{
-		if (j == 0)
-		{
-			start = i;
-		}
 		if (j == nlen - 1)
 		{
 			return (haystack + start);
