@@ -12,12 +12,14 @@ int nlen = 0;
 start = 0;
 if (*needle == '\0')
 {
-	return haystack;
+	return (haystack);
 }
+
 while (needle[nlen] != '\0')
 {
 	nlen++;
 }
+
 for (i = 0; haystack[i] != '\0'; i++)
 {
 	start = i;
