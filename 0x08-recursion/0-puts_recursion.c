@@ -14,6 +14,5 @@ if (*s != '\0')
 else
 {
 	_putchar('\n');
-	return (0);
 }
 }
