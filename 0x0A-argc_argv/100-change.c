@@ -4,7 +4,7 @@
  * main - minimum number of coin
  * @cents: int
  * @num_coins: int
- * Return: 1 
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
