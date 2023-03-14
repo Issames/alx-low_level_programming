@@ -1,24 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - minimum number of coin 
+ * main - minimum number of coin
  * @cents: variable
+ * @num_coins: variable
  * Return: 0
  */
 int main(int argc, char *argv[])
 {
 int num_coins = 0;
-int cents;
+int cents = atoi(argv[1]);
 if (argc != 2)
 {
 	printf("Error\n");
-	return 1;
+	return (1);
 }
-cents = atoi(argv[1]);
 if (cents < 0)
 {
 	printf("0\n");
-	return 0;
+	return (0);
 }
 num_coins += cents / 25;
 cents %= 25;
