@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  * main - minimum number of coin
- * @cents: variable
- * @num_coins: variable
- * Return: 0
+ * @cents: int
+ * @num_coins: int
+ * Return: 1 
  */
 int main(int argc, char *argv[])
 {
