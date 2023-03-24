@@ -14,6 +14,6 @@ typedef struct op
 {
 char c;
 void (*f)(va_list);
-} op_t;
+}op_t;
 void print_all(const char * const format, ...);
 #endif
