@@ -14,7 +14,7 @@ int num;
 if (n == 0)
 {
 	printf("\n");
-	return (0);
+	return ;
 }
 va_start(args, n);
 for (i = 0; i < n; i++)
