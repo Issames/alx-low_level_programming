@@ -14,7 +14,6 @@ char *string;
 if (n == 0)
 {
 	printf("\n");
-	return;
 }
 va_start(args, n);
 for (i = 0; i < n; i++)

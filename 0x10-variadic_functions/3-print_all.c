@@ -36,7 +36,6 @@ char *s = va_arg(args, char *);
 if (s == NULL)
 {
 	printf("(nil)");
-	return;
 }
 printf("%s", s);
 }
